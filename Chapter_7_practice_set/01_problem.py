@@ -1,9 +1,5 @@
 # Write a program to print multiplication table of a given number using for loop
 
-for i in range (1, 101):
-     if( i % 2 == 0):
-          print(i)
-          
-     else:
-          continue
-
+i = int(input("Enter a number to print its multiplication table: "))
+for n in range(1, 11):
+    print(f"{i} x {n} = {i * n}")

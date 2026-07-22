@@ -1,10 +1,11 @@
 n = int(input("Enter a number: "))
 
-sum = 0 
-i = 1
+i = 0
+sum = 0
 
-while i <= n:
+while i<=n:
      sum = sum + i
-     i = i + 1
-print("Sum of first", n , "natural numbers is:", sum)
 
+     i += 1
+
+print(f"The sum of first {n} natural numbers is {sum}")
